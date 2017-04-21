@@ -1,4 +1,6 @@
 #!/usr/bin/perl -w
+# This is a simple example of how to pass command line parameters in PERL
+
 if ($#ARGV != 2 ) {
         print "Minimum of three arguments\n\nSyntax:\nargv.pl arg1 arg2 arg3 \n";
         exit;
