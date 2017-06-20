@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Build a container"
+echo "   docker build -t tag_name ."
+echo ""
+echo ""
+echo "List built containers"
+echo "   docker images"
+echo ""
+echo ""
+echo "Run a container interactively to test it:"
+echo "docker run -it --rm tag_name /bin/bash"
