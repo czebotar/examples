@@ -52,7 +52,7 @@ fi
 if [ -z ${MOUNTLOCATION+x} ] 
 then 
   echo "Local RHEL/CENTOS USB or Optical Disc not found"
-  break
+  exit
 fi
 
 mkdir /mnt/rpms
